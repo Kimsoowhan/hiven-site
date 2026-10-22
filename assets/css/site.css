@@ -67,6 +67,7 @@ h2 small{font-size:18px;font-weight:600;color:var(--sub);margin-left:10px}
 .sec.dark{background:var(--navy);color:#fff}
 .sec.dark h2{color:#fff}
 .sec.dark .lead{color:#C9D2F5}
+.sec.dark h2 .h2-sub{color:#C9D2F5}
 .sec.dark .kicker{color:#9FB4FF}
 .steps{list-style:none;display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:44px}
 .steps li{background:var(--navy2);border:1px solid rgba(255,255,255,.08);border-radius:var(--r);padding:22px 18px}
