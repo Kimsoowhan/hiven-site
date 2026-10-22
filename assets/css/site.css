@@ -103,8 +103,12 @@ h2 small{font-size:18px;font-weight:600;color:var(--sub);margin-left:10px}
 .org-mid span{border:1px solid var(--line);border-radius:999px;padding:6px 18px;font-weight:600;color:var(--navy);background:#fff;font-size:15px}
 .org-line{width:2px;height:16px;background:var(--line)}
 .org + .units{margin-top:12px}
-.lang{margin-left:8px;padding-left:20px;border-left:1px solid var(--line);color:var(--faint)}
-.lang b{color:var(--c2)}
+.langs{margin-left:8px;padding-left:20px;border-left:1px solid var(--line);color:var(--faint);white-space:nowrap}
+.langs b{color:var(--c2)}
+nav .langs a{margin-left:0;color:var(--faint)}
+nav .langs a:hover{color:var(--c2)}
+:lang(ja) body,html:lang(ja) body{font-family:"Pretendard","Hiragino Sans","Yu Gothic","Meiryo","Noto Sans JP",sans-serif;word-break:normal;line-break:strict}
+html:lang(zh-Hans) body{font-family:"Pretendard","PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;word-break:normal}
 
 .nf-logo{height:32px;width:auto}
 .nf-title{margin-top:32px}
@@ -116,7 +120,8 @@ h2 small{font-size:18px;font-weight:600;color:var(--sub);margin-left:10px}
 @media (max-width:760px){
   body{font-size:16px}
   nav a{display:none}
-  nav a.lang{display:inline;border-left:0;padding-left:0;margin-left:0}
+  nav .langs{border-left:0;padding-left:0;margin-left:0}
+  nav .langs a{display:inline}
   .hero-in{grid-template-columns:1fr;padding-top:56px;padding-bottom:64px}
   .hero-mark{order:-1}
   .hero-mark img{max-width:120px;margin:0}
