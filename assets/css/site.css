@@ -41,15 +41,13 @@ nav a:hover{color:var(--c2)}
 .hero-text{position:relative;z-index:2}
 .halo{position:relative;display:block;width:100%;max-width:340px;margin-left:auto}
 .halo img{position:relative;z-index:1;width:100%;filter:drop-shadow(0 20px 60px rgba(8,140,245,.35))}
-/* 시안 A: 심볼 모양을 따라 바로 뒤에 진한 그림자 */
-.halo.dA img{filter:drop-shadow(0 0 1.5px rgba(3,5,22,.95)) drop-shadow(0 0 7px rgba(3,5,22,.85)) drop-shadow(0 20px 60px rgba(8,140,245,.35))}
-/* 시안 B: 심볼 바로 뒤 진한 원판(후광과 심볼 사이 층) */
-.halo.dB{isolation:isolate}
-.halo.dB:after{z-index:-1}
-.halo.dB:before{background:radial-gradient(closest-side,rgba(3,5,22,.82) 36%,rgba(3,5,22,.55) 46%,rgba(3,5,22,0) 56%),radial-gradient(closest-side,rgba(120,190,255,.30),rgba(8,140,245,.19) 30%,rgba(35,67,215,.11) 56%,rgba(119,17,252,.05) 80%,rgba(119,17,252,0) 100%)}
 .halo:before,.halo:after{content:"";position:absolute;pointer-events:none;z-index:0;border-radius:50%}
 .halo:before{inset:-45%;background:radial-gradient(closest-side,rgba(120,190,255,.30),rgba(8,140,245,.19) 30%,rgba(35,67,215,.11) 56%,rgba(119,17,252,.05) 80%,rgba(119,17,252,0) 100%)}
 .halo:after{inset:-70%;background:repeating-conic-gradient(from 6deg,rgba(170,200,255,.08) 0deg 4deg,rgba(170,200,255,0) 4deg 16deg);-webkit-mask:radial-gradient(closest-side,#000 20%,rgba(0,0,0,.4) 46%,transparent 88%);mask:radial-gradient(closest-side,#000 20%,rgba(0,0,0,.4) 46%,transparent 88%);filter:blur(6px)}
+.halo{isolation:isolate}
+.halo:after{z-index:-1}
+/* 심볼 바로 뒤 진한 원판 층(후광과 심볼 사이) - 대표님 선택 18:43 */
+.halo:before{background:radial-gradient(closest-side,rgba(3,5,22,.82) 36%,rgba(3,5,22,.55) 46%,rgba(3,5,22,0) 56%),radial-gradient(closest-side,rgba(120,190,255,.30),rgba(8,140,245,.19) 30%,rgba(35,67,215,.11) 56%,rgba(119,17,252,.05) 80%,rgba(119,17,252,0) 100%)}
 
 .sec{padding:96px 0}
 .sec.alt{background:var(--bg2)}
