@@ -152,3 +152,4 @@ html:lang(zh-Hans) body{font-family:"Pretendard","PingFang SC","Microsoft YaHei"
   .foot-in{flex-direction:column;gap:10px}
 }
 .btn.soon-link{opacity:.55}.btn.soon-link:hover{opacity:.8}
+li.first{position:relative}.cardlink{position:absolute;inset:0;z-index:2;border-radius:inherit}li.first:hover{filter:brightness(1.04)}
