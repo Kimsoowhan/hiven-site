@@ -1,8 +1,8 @@
-@font-face{font-family:"Pretendard";font-weight:400;font-display:swap;src:url(../fonts/Pretendard-Regular.woff2?v=20261022b) format("woff2")}
-@font-face{font-family:"Pretendard";font-weight:500;font-display:swap;src:url(../fonts/Pretendard-Medium.woff2?v=20261022b) format("woff2")}
-@font-face{font-family:"Pretendard";font-weight:600;font-display:swap;src:url(../fonts/Pretendard-SemiBold.woff2?v=20261022b) format("woff2")}
-@font-face{font-family:"Pretendard";font-weight:700;font-display:swap;src:url(../fonts/Pretendard-Bold.woff2?v=20261022b) format("woff2")}
-@font-face{font-family:"Pretendard";font-weight:800;font-display:swap;src:url(../fonts/Pretendard-ExtraBold.woff2?v=20261022b) format("woff2")}
+@font-face{font-family:"Pretendard";font-weight:400;font-display:swap;src:url(../fonts/Pretendard-Regular.woff2?v=20261022e) format("woff2")}
+@font-face{font-family:"Pretendard";font-weight:500;font-display:swap;src:url(../fonts/Pretendard-Medium.woff2?v=20261022e) format("woff2")}
+@font-face{font-family:"Pretendard";font-weight:600;font-display:swap;src:url(../fonts/Pretendard-SemiBold.woff2?v=20261022e) format("woff2")}
+@font-face{font-family:"Pretendard";font-weight:700;font-display:swap;src:url(../fonts/Pretendard-Bold.woff2?v=20261022e) format("woff2")}
+@font-face{font-family:"Pretendard";font-weight:800;font-display:swap;src:url(../fonts/Pretendard-ExtraBold.woff2?v=20261022e) format("woff2")}
 :root{
   --navy:#10184A; --navy2:#1B2463; --ink:#1A1F36; --sub:#4A5070; --faint:#7A8099;
   --line:#E3E6F0; --bg:#FFFFFF; --bg2:#F5F7FC;
@@ -106,6 +106,9 @@ h2 small{font-size:18px;font-weight:600;color:var(--sub);margin-left:10px}
 .foot{border-top:1px solid var(--line);padding:28px 0}
 .foot-in{display:flex;align-items:center;justify-content:space-between;color:var(--faint);font-size:14px}
 .foot img{height:22px;width:auto}
+.foot-brand{display:flex;align-items:center;gap:10px}
+.foot-brand .dot{color:var(--faint);font-weight:600}
+.foot-brand .kname{font-size:15px;font-weight:600;color:var(--sub);line-height:1}
 
 
 .org{margin-top:36px;display:flex;flex-direction:column;align-items:center;gap:12px}
