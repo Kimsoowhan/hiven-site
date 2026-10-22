@@ -61,7 +61,7 @@ h2 small{font-size:18px;font-weight:600;color:var(--sub);margin-left:10px}
 .units h3{margin-top:6px;font-size:20px;color:var(--navy)}
 .units p{margin-top:8px;font-size:14.5px;color:var(--sub);line-height:1.6}
 .units li.first{border:2px solid transparent;background:linear-gradient(#fff,#fff) padding-box,var(--grad) border-box}
-.units li.first:after{content:"첫 사업";position:absolute;top:18px;right:16px;font-size:12px;font-weight:700;color:#fff;background:var(--c2);padding:2px 8px;border-radius:999px}
+.units li.first:after{content:"Root";position:absolute;top:18px;right:16px;font-size:12px;font-weight:700;color:#fff;background:var(--c2);padding:2px 8px;border-radius:999px}
 
 .sec.dark{background:var(--navy);color:#fff}
 .sec.dark h2{color:#fff}
