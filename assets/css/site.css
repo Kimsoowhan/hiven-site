@@ -108,8 +108,8 @@ h2 small{font-size:18px;font-weight:600;color:var(--sub);margin-left:10px}
 .foot img{height:22px;width:auto}
 .foot-brand{display:flex;align-items:center;gap:10px}
 .foot-logo{display:block;width:79px;height:22px;background:var(--faint);-webkit-mask:url(../img/hiven-logo-h.png?v=20261022f) no-repeat left center/contain;mask:url(../img/hiven-logo-h.png?v=20261022f) no-repeat left center/contain}
-.foot-brand .dot{color:var(--faint);font-weight:600}
-.foot-brand .kname{font-size:15px;font-weight:600;color:var(--faint);line-height:1}
+.foot-brand .dot{color:var(--faint);font-weight:600;position:relative;top:.4px}
+.foot-brand .kname{font-size:15px;font-weight:700;color:var(--faint);line-height:1;position:relative;top:1.25px}
 
 
 .org{margin-top:36px;display:flex;flex-direction:column;align-items:center;gap:12px}
