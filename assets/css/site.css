@@ -48,6 +48,7 @@ h2 small{font-size:18px;font-weight:600;color:var(--sub);margin-left:10px}
 .lead{margin-top:16px;font-size:18px;color:var(--sub);max-width:46em}
 
 .hn-space{margin-top:40px;height:260px}
+.hn-space img{width:100%;height:100%;object-fit:cover;max-width:none}
 
 .core{list-style:none;display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:44px}
 .core li{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px 18px}
