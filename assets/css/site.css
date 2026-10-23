@@ -156,4 +156,4 @@ li.first{position:relative}.cardlink{position:absolute;inset:0;z-index:2;border-
 .units li.silver{position:relative;border:2px solid transparent;background:linear-gradient(#fff,#fff) padding-box,var(--grad) border-box}li.silver:hover{filter:brightness(1.04)}
 .unote{margin-top:22px;font-size:13.5px;line-height:1.6;color:var(--faint)}
 .h2link{color:inherit;text-decoration:none}.h2link:hover{text-decoration:underline;text-underline-offset:6px}
-.sec:not(.dark):not(.dl) h2{color:#10184A}.sec:not(.dark):not(.dl) h3{color:#3949AB}
+.sec:not(.dark):not(.dl) h2{color:#10184A}.sec:not(.dark):not(.dl) h3{color:#10184A}.sec:not(.dark):not(.dl) .wrap>h3{color:#3949AB}
