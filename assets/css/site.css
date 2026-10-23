@@ -153,3 +153,4 @@ html:lang(zh-Hans) body{font-family:"Pretendard","PingFang SC","Microsoft YaHei"
 }
 .btn.soon-link{opacity:.55}.btn.soon-link:hover{opacity:.8}
 li.first{position:relative}.cardlink{position:absolute;inset:0;z-index:2;border-radius:inherit}li.first:hover{filter:brightness(1.04)}
+.units li.silver{position:relative;border:2px solid transparent;background:linear-gradient(#fff,#fff) padding-box,var(--grad) border-box}li.silver:hover{filter:brightness(1.04)}
