@@ -91,7 +91,7 @@ h2 small{font-size:18px;font-weight:600;color:var(--sub);margin-left:10px}
 .mvp h4{font-size:16px;color:#fff;margin-bottom:8px}
 .ticks{list-style:none;display:grid;gap:8px}
 .ticks li{position:relative;padding-left:18px;font-size:14.5px;line-height:1.6;color:#C9D2F5}
-.ticks li:before{content:"";position:absolute;left:0;top:.62em;width:7px;height:7px;border-radius:50%;background:var(--grad)}
+.ticks li:before{content:"";position:absolute;left:0;top:.62em;top:calc(.5lh - 4.5px);width:7px;height:7px;border-radius:50%;background:var(--grad)}
 .dl{margin-top:24px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .btn.soon{opacity:.55;cursor:not-allowed;pointer-events:none}
 .hash{font-size:12.5px;color:#9AA4D6;word-break:break-all}
@@ -99,7 +99,7 @@ h2 small{font-size:18px;font-weight:600;color:var(--sub);margin-left:10px}
 
 .facts{list-style:none;margin-top:20px;display:grid;gap:10px}
 .facts li{padding-left:18px;position:relative;color:var(--sub)}
-.facts li:before{content:"";position:absolute;left:0;top:.72em;width:7px;height:7px;border-radius:50%;background:var(--grad)}
+.facts li:before{content:"";position:absolute;left:0;top:.72em;top:calc(.5lh - 4.5px);width:7px;height:7px;border-radius:50%;background:var(--grad)}
 
 .mail{display:inline-block;margin-top:24px;font-size:24px;font-weight:700;color:var(--c2);border-bottom:2px solid currentColor}
 
