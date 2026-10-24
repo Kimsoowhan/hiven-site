@@ -1,8 +1,8 @@
-@font-face{font-family:"Pretendard";font-weight:400;font-display:swap;src:url(../fonts/Pretendard-Regular.woff2?v=20261023g) format("woff2")}
-@font-face{font-family:"Pretendard";font-weight:500;font-display:swap;src:url(../fonts/Pretendard-Medium.woff2?v=20261023g) format("woff2")}
-@font-face{font-family:"Pretendard";font-weight:600;font-display:swap;src:url(../fonts/Pretendard-SemiBold.woff2?v=20261023g) format("woff2")}
-@font-face{font-family:"Pretendard";font-weight:700;font-display:swap;src:url(../fonts/Pretendard-Bold.woff2?v=20261023g) format("woff2")}
-@font-face{font-family:"Pretendard";font-weight:800;font-display:swap;src:url(../fonts/Pretendard-ExtraBold.woff2?v=20261023g) format("woff2")}
+@font-face{font-family:"Pretendard";font-weight:400;font-display:swap;src:url(../fonts/Pretendard-Regular.woff2?v=20261024f) format("woff2")}
+@font-face{font-family:"Pretendard";font-weight:500;font-display:swap;src:url(../fonts/Pretendard-Medium.woff2?v=20261024f) format("woff2")}
+@font-face{font-family:"Pretendard";font-weight:600;font-display:swap;src:url(../fonts/Pretendard-SemiBold.woff2?v=20261024f) format("woff2")}
+@font-face{font-family:"Pretendard";font-weight:700;font-display:swap;src:url(../fonts/Pretendard-Bold.woff2?v=20261024f) format("woff2")}
+@font-face{font-family:"Pretendard";font-weight:800;font-display:swap;src:url(../fonts/Pretendard-ExtraBold.woff2?v=20261024f) format("woff2")}
 :root{
   --navy:#10184A; --navy2:#1B2463; --ink:#1A1F36; --sub:#4A5070; --faint:#7A8099;
   --line:#E3E6F0; --bg:#FFFFFF; --bg2:#F5F7FC;
