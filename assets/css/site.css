@@ -170,3 +170,4 @@ li.first{position:relative}.cardlink{position:absolute;inset:0;z-index:2;border-
 @media(max-width:640px){.relsvg.wide{display:none}.relsvg.tall{display:block}}
 #silver .note{margin-top:14px;font-size:14px;color:var(--sub)}
 #silver .ln{display:block}
+.units .kname{display:block;margin-top:2px;font-size:13px;color:#8A90A0;letter-spacing:0}
